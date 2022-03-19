@@ -468,3 +468,133 @@ body {
 .form-main-link {
     margin-left: -125px;
 }
+
+/* FOOTER */
+.footer-list {
+    background-color: #FFFFFF24;
+    padding-top: 60px;
+    padding-bottom: 51px;
+}
+.footer-list-container {
+    display: flex;
+    max-width: 1140px;
+}
+
+.footer-lists {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-lists:nth-child(1) {
+    width: 139px;
+    margin-right: 153px;
+}
+
+.footer-lists:nth-child(2) {
+    width: 188px;
+    margin-right: 105px;
+}
+
+.footer-lists:nth-child(3) {
+    width: 198px;
+    margin-right: 97px;
+}
+
+.footer-lists:nth-child(4) {
+    width: 220px;
+}
+
+
+.footer-lists-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-lists-title {
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+    line-height: 37.5px;
+    margin: 0;
+}
+
+.footer-lists-item a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-lists-item a:hover {
+    opacity: 1;
+}
+
+.footer-icon {
+    background-image: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.footer-icon-container {
+    max-width: 1180px;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.f-icon-lists {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.f-icon-lists-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.f-icon-text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 30px;
+    color: #fff;
+    margin: 0;
+}
+
+.f-icon-lists-item:first-child {
+    margin-right: 138px;
+}
+
+.f-icon-lists-item:nth-child(2) {
+    margin-right: 30px;
+}
+
+.f-icon-lists-link:not(:last-child) {
+    margin-right: 29px;
+}
+
+.f-icon-netw {
+    display: block;
+}
+
+.f-icon-lists-link:hover {
+    opacity: 0.8;
+}
+
+.f-icon-lists-link:active {
+    opacity: 0.6;
+}
+
+.footer-btn {
+    padding: 15px 31px 14px 31px;
+    background-color: #fff;
+    color: #3C61E1;
+    font-size: 20px;
+    line-height: 23px;
+}
